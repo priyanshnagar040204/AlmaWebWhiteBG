@@ -1,0 +1,43 @@
+.section3{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+   
+    
+    .sectionbody{
+        position: relative;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        flex-direction: column;
+        padding: 20px;
+        .section3para{
+            font-size: 30px;
+           }
+        
+         .section3heading{
+             font-size: 20px;
+             color: black;
+         }
+        }
+        .accbtn{
+            padding: 40px;
+            
+            .Newaccbtn{
+                background-color: rgba(52, 52, 255, 0.795);
+                color: white;
+                border-radius: 20px;
+                padding: 10px 20px;
+                
+            }
+            .Newaccbtn:hover{
+                background-color: black;
+            }
+
+        }
+        
+    }

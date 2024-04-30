@@ -1,0 +1,54 @@
+.cards{
+    width: 450px;
+    height: 360px;
+    background-color: rgba(239, 238, 238, 0.598);
+    box-shadow: 0 4px 8px rgba(8, 8, 8, 0.295);
+    box-sizing: border-box;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+    transition: transform 0.3s ease;
+   overflow: hidden;
+   &:hover{
+    transform: scale(1.05);
+   }
+     
+    .w-row{
+        
+        display: flex;
+        align-items: center;
+       overflow: hidden;
+        justify-content: center;
+        padding: 10px 30px 70px 30px;
+        gap: 15px;
+        .columnImg{
+           img{
+             border-radius: 10px;
+             margin-top: 30px;
+             overflow: hidden;
+           }
+        }
+        .medical-api{
+            padding: 100px 0px 0px 0px;
+            overflow-y: hidden;
+            .heading-10{     
+                text-align: center;   
+                color: #151515;
+                font-size: 25px;
+                font-weight: 500;
+                line-height: 29px;
+                overflow: hidden;
+            }
+            .paragraph-8{
+                overflow: hidden;
+                text-align: center;
+                color: #4b4a4a;
+                font-size: 16px;
+            }
+        }
+       
+    }
+}

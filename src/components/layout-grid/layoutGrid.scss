@@ -1,0 +1,90 @@
+.container-1{
+  display: flex;
+  width: 100vw;
+display: flex;
+box-sizing: border-box;
+justify-content: center;
+  .layoutGrid{
+
+      
+      width: 76vw;
+      height: 600px;
+      // height: 1000px;
+      // padding: 0px 100px
+      display: flex;
+      flex-wrap: nowrap;
+     
+      .left-layoutGrid{
+          flex: 6;
+          display: flex;
+          // justify-content: center;
+       
+          align-items: center;
+          .text-box {
+              max-width: 700px;
+              gap: 10px;
+              padding: 20px;
+              text-align: left;
+            display: flex;
+            flex-direction: column;
+             
+              .heading-7 {
+                font-size: 65px;
+                font-weight: bold;
+                margin-bottom: 10px;
+                color: #333;
+                line-height: 1.25em;
+              }
+            
+              .text-span-8 {
+                font-size: 32px;
+                font-weight: 200;
+                color: #0c0d0e;
+              }
+            
+              .paragraph.large {
+                font-size: 18px;
+                color: #4a4949;
+              }
+            
+              
+              .book-demo {
+                  color: #fff;
+                  max-width: max-content;
+                  background-color: black;
+                  border: 1px solid rgba(0, 0, 0, 0);
+                  border-radius: 30px;
+                  font-size: 18px;
+                  padding: 8px 30px;
+                 
+                  text-decoration: none;
+      
+                  font-family: Inter, sans-serif;
+                  transition: ease-in-out;
+                  &:hover{
+                      transform: scale(1.02);
+                  }
+                }
+            
+              .div-block-22 {
+                margin-top: 20px;
+            
+                .image-85,
+                .image-86 {
+                  margin-right: 10px;
+                }
+              }
+            }
+            
+
+      }
+      .right-layoutGrid{
+          flex: 4;
+          background-image: url("https://firebasestorage.googleapis.com/v0/b/eacc-16da4.appspot.com/o/WhatsApp_Image_2024-02-07_at_11.38.02-removebg-preview.png?alt=media&token=3e595a33-484d-4b63-843b-e7a0cab90d7c");
+          background-repeat: no-repeat; 
+          margin-top: 100px;
+          margin-left: 70px;
+          background-size: 400px 400px;
+        }
+    }
+}

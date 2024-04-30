@@ -1,0 +1,23 @@
+.section2{
+    
+   margin-top: 100px;
+   margin-bottom: 20px;
+   position: relative;
+  align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 20px;
+    
+
+    .section2heading{
+        font-size: 35px;
+        color: black;
+    }
+    .section2para{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+}
